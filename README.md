@@ -1,5 +1,9 @@
 # Calculator
 
+<div align="center">
+  <img src="Preview.png" alt="Calculator Preview" width="400">
+</div>
+
 ## Description
 This task involves building a simple calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
