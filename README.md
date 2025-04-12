@@ -2,6 +2,9 @@
 
 <div align="center">
   <img src="Preview.png" alt="Calculator Preview" width="400">
+  <h2>
+    <a href="https://sainath-666.github.io/Calculator_1" target="_blank">View Live Demo</a>
+  </h2>
 </div>
 
 ## Description
@@ -20,7 +23,7 @@ This task involves building a simple calculator that can perform basic arithmeti
 ## Usage
 1. Clone the repository.
     ```
-    git clone https://github.com/sainath-666/Level_2_Task_1-Calculator
+    git clone https://github.com/sainath-666/Calculator_1
     ```
 2. Navigate to the project directory.
 3. Open `index.html` in a web browser to use the calculator.
