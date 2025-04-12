@@ -5,19 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
   <div class="container">
     <div class="calculator">
       <h2>Calculator</h2>
-      <input type="text" id="result" disabled />
+      <input type="text" id="result" disabled placeholder="0" />
       <div class="buttons">
-        <button onclick="appendValue('/')">/</button>
-        <button onclick="appendValue('*')">*</button>
-        <button onclick="appendValue('-')">-</button>
-        <button onclick="appendValue('+')">+</button>
-        <button onclick="appendValue('.')">.</button>
-        <button onclick="clearDisplay()" class="clear">C</button>
+        <!-- Operators -->
+        <button onclick="appendValue('/')" title="Divide"><i class="fas fa-divide"></i></button>
+        <button onclick="appendValue('*')" title="Multiply"><i class="fas fa-times"></i></button>
+        <button onclick="appendValue('-')" title="Subtract"><i class="fas fa-minus"></i></button>
+        <button onclick="appendValue('+')" title="Add"><i class="fas fa-plus"></i></button>
+        
+        <!-- Clear and Decimal -->
+        <button onclick="clearDisplay()" class="clear" title="Clear">C</button>
+        <button onclick="appendValue('.')" title="Decimal">.</button>
+        
+        <!-- Numbers -->
         <button onclick="appendValue('7')">7</button>
         <button onclick="appendValue('8')">8</button>
         <button onclick="appendValue('9')">9</button>
@@ -28,8 +35,12 @@
         <button onclick="appendValue('2')">2</button>
         <button onclick="appendValue('3')">3</button>
         <button onclick="appendValue('0')" class="zero">0</button>
-        <button onclick="calculateResult()" class="equal">=</button>
-        <h3 class="name">  By Sainathreddy</h3>
+        
+        <!-- Equal -->
+        <button onclick="calculateResult()" class="equal" title="Calculate">=</button>
+        
+        <!-- Signature -->
+        <h3 class="name">By Sainathreddy</h3>
       </div>
     </div>
   </div>

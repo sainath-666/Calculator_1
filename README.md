@@ -1,4 +1,4 @@
-# Level_2_Task_1 - Calculator
+# Calculator
 
 ## Description
 This task involves building a simple calculator that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
@@ -34,15 +34,15 @@ Enter second number: 3
 Result: 8
 ```
 
-## License
-This project is licensed under the MIT License.
-
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## Contact
 For any questions or feedback, please contact [sainath-666](https://github.com/sainath-666).
 
-## Acknowledgements
-- Thanks to OASIS INFOBYTE for the internship opportunity.
-- Special thanks to the open-source community for providing valuable resources.
+---
+
+
+<div align="center">
+  <p>Made with ❤️ by Your Sainathreddy</p>
+</div>
